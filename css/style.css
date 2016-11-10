@@ -1,0 +1,121 @@
+/* Inserta tu código aqui */
+* {
+	outline: 1px solid green;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	width: 100%;
+	height:30%;
+	background-color: black;
+	color:white;
+}
+
+header img {
+	width: 80px;
+}
+
+header .main-nav {
+	list-style:none;
+	margin:0;
+	padding-top: 0;
+	text-align: right;
+}
+
+header .main-nav li{
+	display: inline-block;
+	}
+
+header .main-nav a{
+	color:white;
+	padding: 5px 10px;
+	display: block;
+}
+.last-episodes {
+		background: #efefef
+	}
+
+
+.last-episodes list-episodes img {
+	width: 100%;
+}
+
+.last-episodes list-episodes p{
+	text-align: center;
+}
+
+
+.lista-contenido {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.lista-contenido li {
+display: inline-block;
+width: 109px;
+margin: 0 10px 10px 0;
+vertical-align: top;
+}
+
+
+.lista-contenido li img {
+width: 100%;
+}
+
+.navigations-links h3 {
+	border-bottom: 1px solid #CCC;
+	margin:10px 0;
+
+}
+
+.navigations-links ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.navigations-links img{
+	margin-right:10px; 
+
+}
+
+.navigations-links ul a{
+	text-decoration: none;
+	color: #;
+
+}
+
+footer {
+	background-color: black;
+}
+nav.footer li {
+	display: inline-block;
+	text-decoration: none
+    color: #333;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+nav.footer {
+    height: 30px;
+    margin: 0 0 10px;
+    padding: 0 18%;
+}
+.resumen{
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+.copyright{
+    margin:30px 0 30px 0; 
+    color: #cad0cb;
+    margin-left: 180px;
+}
