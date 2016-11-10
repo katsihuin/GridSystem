@@ -5,6 +5,7 @@
 
 body {
 	font-family: sans-serif;
+	text-decoration-color: #08298a
 }
 
 header {
@@ -27,23 +28,24 @@ header .main-nav {
 
 header .main-nav li{
 	display: inline-block;
-	}
+}
 
 header .main-nav a{
-	color:white;
+	color: white;
 	padding: 5px 10px;
 	display: block;
 }
+
 .last-episodes {
-		background: #efefef
+		background: #EFEFEF;
 	}
 
 
-.last-episodes list-episodes img {
+.last-episodes .list-episodios img {
 	width: 100%;
 }
 
-.last-episodes list-episodes p{
+.last-episodes .list-episodios p{
 	text-align: center;
 }
 
@@ -56,9 +58,11 @@ header .main-nav a{
 
 .lista-contenido li {
 display: inline-block;
-width: 109px;
+width: 105px;
 margin: 0 10px 10px 0;
 vertical-align: top;
+text-align: center;
+text-decoration-color: 
 }
 
 
@@ -79,7 +83,7 @@ width: 100%;
 
 }
 
-.navigations-links img{
+.navigations-links ul img{
 	margin-right:10px; 
 
 }
